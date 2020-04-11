@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="music-container " id="music-container">
+        <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+        <audio src="music/hey.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+        </div>
+        <div class="navigation">
+            <i id="prev" class="material-icons action-btn">fast_rewind</i>
+            <i id="play" id="play" class="material-icons action-btn ">play_arrow</i>
+            <i id="pause" class="material-icons action-btn  hide">pause</i>
+            <i id="next" class="material-icons action-btn">fast_forward</i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js">  </script>
+</body>
+
+</html>
